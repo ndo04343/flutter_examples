@@ -1,0 +1,19 @@
+1. Game Loop
+update -> render -> update ... (Input이 있을 수도 있음)
+(30FPS or 60FPS)
+2. Sprite : Image(2D) object
+3. Component : Object(e.g., Mario, Mushroom, and stuff like that...) 즉, 각각의 Entity이다.
+
+4. 새 애니메이션 이미지 넣기.
+    높이 12
+    너비 17
+5. 바닥이 움직이는 것 처럼하기 :
+    바닥의 사이즈를 2배로 키운후 계속 반복 왼쪽으로 움직이기(리셋함께)
+
+6. Pause, Play, Gameover State를 만들거임.
+Rect를 쓸건데,
+AnimationComponent는 toRect있음. 근데 그냥 Component는 toRect없음 그래서 만듬
+
+
+1:10:56
+코딩파파
